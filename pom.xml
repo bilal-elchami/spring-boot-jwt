@@ -51,9 +51,9 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<!-- Use MySQL Connector-J -->
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<!-- Automated JSON API documentation for API's built with Spring -->
